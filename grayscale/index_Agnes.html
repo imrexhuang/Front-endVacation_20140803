@@ -8,10 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
     <title>Grayscale - Start Bootstrap Theme</title>
 
+
     <!-- Bootstrap Core CSS -->
+    <STYLE TYPE="text/css">
+    .modal-header1 {
+        min-height: 16.43px;
+        padding: 15px;
+    }
+    </STYLE>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -41,7 +48,8 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i> 
+                    <span class="light">Start</span>Bootstrap
                 </a>
             </div>
 
@@ -61,6 +69,11 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                            login
+                        </button>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -75,7 +88,8 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
+                            <br>Created by Start Bootstrap.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -135,7 +149,38 @@
 
     <!-- Map Section -->
     <div id="map"></div>
+    <!--login-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header1">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                </div>
+                <div class="modal-body">
+                    <div class="login-form">
+                        <h2>Login</h2>
+                        <form action="">
+                            <fieldset>
+                                <div class="col-md-4">
+                                    <input type="text" placeholder="Username">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="password" placeholder="Password">
+                                </div>
+                                
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
 
+                    <button type="button" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="container text-center">
