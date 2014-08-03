@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_668jerry.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index_668jerry.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_668jerry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="58" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.14132379" vertical-offset="431" max-vertical-offset="3870">
+            <state line="171" column="0" selection-start="4928" selection-end="6366" vertical-scroll-proportion="-14.48" vertical-offset="1841" max-vertical-offset="3870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="8" selection-start="5507" selection-end="5507" vertical-scroll-proportion="0.61538464" vertical-offset="1755" max-vertical-offset="3495">
               <folding />
             </state>
           </provider>
@@ -53,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/668jerry/basic.html" />
         <option value="$PROJECT_DIR$/index_668jerry.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -195,13 +205,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="-5.556886" vertical-offset="3944" max-vertical-offset="4901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/668jerry/basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="-13.846154" vertical-offset="0" max-vertical-offset="1065">
@@ -211,7 +214,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_668jerry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="58" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.14132379" vertical-offset="431" max-vertical-offset="3870">
+        <state line="171" column="0" selection-start="4928" selection-end="6366" vertical-scroll-proportion="-14.48" vertical-offset="1841" max-vertical-offset="3870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="8" selection-start="5507" selection-end="5507" vertical-scroll-proportion="0.61538464" vertical-offset="1755" max-vertical-offset="3495">
           <folding />
         </state>
       </provider>
